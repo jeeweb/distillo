@@ -1,0 +1,11 @@
+/* common class */
+.white-outline {
+	-webkit-text-stroke-color: #fff;
+	-webkit-text-stroke-width: 1px;
+	color: transparent;
+}
+
+
+.logo svg{
+	fill: #471948;
+}

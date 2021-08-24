@@ -1,0 +1,40 @@
+/* tag reset */
+html,
+body {
+  background: #cec5be;
+}
+* {
+  padding: 0;
+  margin: 0;
+	box-sizing: border-box;
+}
+body {
+  font-family: Arial, 'Malgun Gothic', '맑은 고딕', 'Open Sans', sans-serif, ;
+  color: #471948;
+}
+ul {
+  list-style: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  background: none;
+  outline: none;
+}
+img {
+  vertical-align: middle;
+  height: auto;
+}
+em {
+	font-style: normal;
+}

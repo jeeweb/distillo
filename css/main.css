@@ -1,0 +1,67 @@
+/* ===== layout ===== */
+
+/* fixed */
+.fixed{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100vw;
+	height: 100vh;
+	padding: 20px 24px;
+}
+.fixed__header,
+.fixed__bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.util {
+	display: flex;
+	font-size: 0.88em;
+	letter-spacing: -0.4px;
+}
+.gnb{
+	margin-left: 60px;
+	text-align: right;
+
+}
+
+
+.wrapper__color-mode{
+	display: flex;
+	align-items: center;
+}
+.wrapper__color-mode button{
+	padding: 16px;
+	border-radius: 50%;
+}
+.wrapper__color-mode .fas{
+	display: none;
+}
+.wrapper__color-mode li.on button{
+	border: 1px solid #471948;
+}
+.wrapper__color-mode li.on .fas{
+	display: block;
+}
+.wrapper__color-mode li.on .far{
+	display: none;
+}
+.check-cookies{
+	padding: 0 30px;
+	background-color: #331233;
+	color: #cec5be;
+	border-radius: 24px;
+	font-size: 0.88em;
+}
+.btn__check-cookies{
+	padding: 14px 0;
+	margin-left: 48px;
+}
+
+.btn__top{
+	padding: 16px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
