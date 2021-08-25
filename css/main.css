@@ -1,67 +1,39 @@
-/* ===== layout ===== */
+/* ===== main-section ===== */
 
-/* fixed */
-.fixed{
-	position: fixed;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+/* section #1 - above-cnt */
+.above-cnt{
+	position: relative;
+	padding: 96px 0 584px;
+}
+.above-cnt .text-wrap{
+	font-size: 12.5vw;
+}
+.above-cnt .text-wrap p{
+	padding: 0 42px;
+	width: 100%;
+	font-weight: 600;
+}
+.above-cnt .text-wrap > *{
+	position: relative;
+}
+.above-cnt .text-wrap > *:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 7px;
 	width: 100vw;
-	height: 100vh;
-	padding: 20px 24px;
+	height: 1px;
+	background-color: #fff;
 }
-.fixed__header,
-.fixed__bottom{
+.above-cnt .text-wrap > div{
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-}
-.util {
-	display: flex;
-	font-size: 0.88em;
-	letter-spacing: -0.4px;
-}
-.gnb{
-	margin-left: 60px;
-	text-align: right;
-
-}
-
-
-.wrapper__color-mode{
-	display: flex;
 	align-items: center;
 }
-.wrapper__color-mode button{
-	padding: 16px;
-	border-radius: 50%;
-}
-.wrapper__color-mode .fas{
-	display: none;
-}
-.wrapper__color-mode li.on button{
-	border: 1px solid #471948;
-}
-.wrapper__color-mode li.on .fas{
-	display: block;
-}
-.wrapper__color-mode li.on .far{
-	display: none;
-}
-.check-cookies{
-	padding: 0 30px;
-	background-color: #331233;
-	color: #cec5be;
-	border-radius: 24px;
-	font-size: 0.88em;
-}
-.btn__check-cookies{
-	padding: 14px 0;
-	margin-left: 48px;
-}
-
-.btn__top{
-	padding: 16px;
-	border-radius: 50%;
-	border: 1px solid #fff;
+.above-cnt > img{
+	position: absolute;
+	left: 50%;
+	top: 43.2vw;
+	width: 320px;
+	transform: translateX(-50%);
 }

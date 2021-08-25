@@ -11,6 +11,9 @@ body {
 body {
   font-family: Arial, 'Malgun Gothic', '맑은 고딕', 'Open Sans', sans-serif, ;
   color: #471948;
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: -1.2px;
 }
 ul {
   list-style: none;
